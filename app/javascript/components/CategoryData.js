@@ -1,4 +1,5 @@
 import { Layout, Card, ResourceList, Thumbnail, TextStyle } from '@shopify/polaris';
+import React from 'react';
 
 export default function CategoryData() {
   return (
