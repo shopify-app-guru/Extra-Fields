@@ -25,7 +25,7 @@ export default function App() {
   return (
      <AppProvider i18n={enTranslations}>
        <ApolloProvider client={client}>
-        <CategoryData />
+          <CategoryData />
        </ApolloProvider>
      </AppProvider>
    );
