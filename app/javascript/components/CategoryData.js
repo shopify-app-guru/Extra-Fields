@@ -37,7 +37,7 @@
           ]}
           renderItem={(item) => {
             const {id, url, name, sku, media, quantity} = item;
-​
+
             return (
               <ResourceList.Item
                 id={id}
@@ -95,7 +95,7 @@
           ]}
           renderItem={(item) => {
             const {id, url, name, sku, media, quantity} = item;
-​
+
             return (
               <ResourceList.Item
                 id={id}
@@ -153,7 +153,7 @@
           ]}
           renderItem={(item) => {
             const {id, url, name, sku, media, quantity} = item;
-​
+            
             return (
               <ResourceList.Item
                 id={id}
