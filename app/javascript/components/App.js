@@ -4,7 +4,7 @@ import {
   HttpLink,
   InMemoryCache,
 } from '@apollo/client';
-import { AppProvider, EmptyState, Page } from '@shopify/polaris';
+import { AppProvider} from '@shopify/polaris';
 import { authenticatedFetch } from '@shopify/app-bridge-utils';
 import CategoryData from './CategoryData'
 

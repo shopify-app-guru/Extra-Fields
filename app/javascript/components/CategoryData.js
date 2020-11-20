@@ -1,3 +1,5 @@
+import { Layout, Card, ResourceList, Thumbnail, TextStyle } from '@shopify/polaris';
+
 <Layout>
   <Layout.Section oneThird>
     <Card title="Florida" actions={[{content: 'Manage'}]}>
@@ -153,7 +155,7 @@
           ]}
           renderItem={(item) => {
             const {id, url, name, sku, media, quantity} = item;
-            
+
             return (
               <ResourceList.Item
                 id={id}
