@@ -1,5 +1,3 @@
-import { authenticatedFetch } from '@shopify/app-bridge-utils';
-
 import {
   ApolloClient,
   ApolloProvider,
