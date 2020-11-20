@@ -13,6 +13,15 @@ import React from 'react';
 
 export default function App() {
 
+  const client = new ApolloClient({
+    link: new HttpLink({
+      credentials: 'same-origin',
+      fetch: authenticatedFetch(window.app), // created in shopify_app.js
+      uri: '/graphql'
+    }),
+    cache: new InMemoryCache()
+  });
+  
   return (
      <AppProvider i18n={enTranslations}>
        <ApolloProvider client={client}>
